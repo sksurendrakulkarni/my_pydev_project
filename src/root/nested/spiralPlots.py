@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 d = 0.25
 t = np.arange(0.0, 10.0, 0.1)
-
+print("adding spiral plots")
 plt.figure()
 plt.subplot(211)
 plt.plot(np.exp(-d * t) * np.cos(np.pi * t), np.exp(-d * t) * np.sin(np.pi * t), 'r--')
